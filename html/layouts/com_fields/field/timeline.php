@@ -41,7 +41,7 @@ if ($value == '') {
             <?php if ($showLabel == 1) : ?>
             <div class="it-header-block">
                 <div class="it-header-block-title text-center">
-                    <h3 class="mb-4"><?php echo htmlentities($label, ENT_QUOTES | ENT_IGNORE, 'UTF-8'); ?></h2>
+                    <h3 class="mb-4"><?php echo htmlentities($label, ENT_QUOTES | ENT_IGNORE, 'UTF-8'); ?></h3>
                 </div>
             </div>
             <?php endif; ?>
