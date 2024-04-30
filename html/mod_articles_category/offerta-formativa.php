@@ -41,8 +41,8 @@ $baseImagePath = Uri::root(false) . "media/templates/site/joomla-italia-theme/im
                 <ul>
                     <div class="title-small mb-5">
                         <div class="h5 text-center">Presentazione della scuola</div>
-                    </div>
-                    <?php
+                </div>
+                <?php
                     $z1 = 0;
                     foreach ($list as $groupName => $items) {
                         $idgroupName = str_replace(' ', '', $groupName);
